@@ -432,14 +432,14 @@ tr:nth-child(even){
     padding:2px;
 }
 .fab{
-    font-size: 20px;
+    font-size: 30px;
     color:#8758ff;
 }
 .fab:hover{
     filter: brightness(0.8);
 }
 .channels{
-    padding:2px;
+    padding:2px 4px;
     margin:2px;
 }
 .top-link{
@@ -455,6 +455,9 @@ tr:nth-child(even){
 }
 .top-link.visible{
     visibility: visible;
+}
+.top-link a{
+    color:#f2f2f2;
 }
 
 
