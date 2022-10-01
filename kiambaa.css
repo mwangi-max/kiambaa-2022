@@ -259,7 +259,7 @@ figure img{
     background-position: center;
 }
 .ruto-gachagua{
-    background:url('ruto-gachagua-receiving-certificate-from-iebc.jpg');
+    background:url('ruto-gachagua-receiving-certificate-small.jpg');
     height:250px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -395,20 +395,7 @@ tr:nth-child(even){
 .small-medium{
     display: none;
 }
-.top-link{
-    position: fixed;
-    bottom:7%;
-    right:7%;
-    background:#181818;
-    color:#f2f2f2;
-    padding:5px;
-    border-radius: 2px;
-    z-index: 5;
-    visibility: hidden;
-}
-.top-link.visible{
-    visibility: visible;
-}
+
 .inline-links{
     color:#8758ff;
     text-decoration: underline;
@@ -448,9 +435,26 @@ tr:nth-child(even){
     font-size: 20px;
     color:#8758ff;
 }
+.fab:hover{
+    filter: brightness(0.8);
+}
 .channels{
     padding:2px;
     margin:2px;
+}
+.top-link{
+    position: fixed;
+    bottom:7%;
+    right:7%;
+    background:#181818;
+    color:#f2f2f2;
+    padding:5px;
+    border-radius: 2px;
+    z-index: 5;
+    visibility: hidden;
+}
+.top-link.visible{
+    visibility: visible;
 }
 
 
@@ -549,7 +553,7 @@ tr:nth-child(even){
         text-align: center;
     }
     .ruto-gachagua{
-        background: url('ruto-gachagua-receiving-certificate-from-iebc.jpg');
+        background: url('ruto-gachagua-receiving-certificate.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

@@ -283,24 +283,6 @@ menuBtn.addEventListener('click', ()=>{
         menuBtn.textContent = 'OPEN';
     }
 })
-membersOfParliament.addEventListener('click', ()=>{
-    mps.classList.toggle('seen');
-    parliamentIcon.classList.toggle('rotate');
-    if(mcas.classList.contains('seen')){
-        mcas.classList.remove('seen');
-        assemblyIcon.classList.toggle('rotate');
-    };
-});
-
-membersOfCountyAssembly.addEventListener('click', ()=>{
-    mcas.classList.toggle('seen');
-    assemblyIcon.classList.toggle('rotate');
-    if(mps.classList.contains('seen')){
-        mps.classList.remove('seen');
-        parliamentIcon.classList.toggle('rotate');
-    }
-});
-
 
 precedingElements.forEach(element =>{
     element.addEventListener('click', (e)=>{
